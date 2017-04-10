@@ -1,9 +1,9 @@
 package com.eventapp.pitch.Activities;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Environment;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
@@ -23,7 +23,7 @@ import java.util.List;
 
 import static com.eventapp.pitch.Utils.pitch.*;
 
-public class Launcher extends AppCompatActivity {
+public class Launcher extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
