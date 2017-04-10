@@ -15,9 +15,9 @@ App is for the event organisers out there, who want to create a dynamic and mobi
 App has some predefined templates embedded in it which are highly customizable. After editing the template, the template apk is unzipped and changes are packed into it. And then a SHA-1 signer signs the app to certify the changes in the apk.Now the apk is uploaded to the organiser's drive which can be shared by the organiser to his/her participants.
 
 
-##APIs used
-Zipio- For zipping and unzipping apk
-Kellinwood logger: Logging
-Glide: Background Image Loading and processing
-Google Play Services Auth: Google Drive Authorisation
+## APIs used
+Zipio- For zipping and unzipping apk<br>
+Kellinwood logger: Logging<br>
+Glide: Background Image Loading and processing<br>
+Google Play Services Auth: Google Drive Authorisation<br>
 Google Drive REST API: Handling the files of the user
